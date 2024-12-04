@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Ventas de Comidas</title>
+    <link rel="stylesheet" href="producto.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FAST AND TASTY</h1>
+        </header>
+        <div class="products-grid">
+         
+            <div class="product" data-name="Empanada" data-price="10.00">
+                <img src="empana.jpg" alt="Empanada">
+                <h2>EMPANADA</h2>
+                <p>$10.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Pizza" data-price="12.00">
+                <img src="pizza.jpg" alt="Pizza">
+                <h2>Pizza</h2>
+                <p>$12.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Quipes" data-price="8.00">
+                <img src="Quipes.webp" alt="Quipes">
+                <h2>QUIPES</h2>
+                <p>$8.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Tacos" data-price="7.50">
+                <img src="tacos.jpg" alt="Tacos">
+                <h2>Tacos</h2>
+                <p>$7.50</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Espaguetis" data-price="15.00">
+                <img src="esguetis.jpg" alt="Espaguetis">
+                <h2>ESPAGUETIS</h2>
+                <p>$15.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Bistec" data-price="18.00">
+                <img src="filete.jpg" alt="Bistec">
+                <h2>Bistec</h2>
+                <p>$18.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Pollo Frito" data-price="11.00">
+                <img src="pollo-frito.webp" alt="Pollo Frito">
+                <h2>POLLO FRITO</h2>
+                <p>$11.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Hamburguesa" data-price="6.00">
+                <img src="home-burger.png" alt="Hamburguesa">
+                <h2>Hamburguesa</h2>
+                <p>$6.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Postre" data-price="5.00">
+                <img src="postres.jpg" alt="Postre">
+                <h2>Postre</h2>
+                <p>$5.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product" data-name="Soda" data-price="9.00">
+                <img src="soda.jpg" alt="Soda">
+                <h2>Sodas</h2>
+                <p>$9.00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p id="cart-total">Total: $0.00</p>
+            <button id="pay-button" class="pay-button">Pagar</button>
+        </div>
+    </div>
+    <script src="producto.js"></script>
+</body>
+</html>
